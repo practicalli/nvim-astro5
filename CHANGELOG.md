@@ -1,5 +1,8 @@
 # Unreleased
 
+## Added
+- eca: editor code assistant plugin spec (commercial)
+
 # 2025-07-03
 
 ## Added
