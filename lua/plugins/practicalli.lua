@@ -179,6 +179,9 @@ return {
           -- Test runner: "clojure", "clojuresCRipt", "kaocha"
           ["conjure#client#clojure#nrepl#test#runner"] = "kaocha",
 
+          -- Debug
+          -- ["conjure#debug"] = true,
+
           -- Troubleshoot: Minimise very long lines slow down:
           -- ["conjure#log#treesitter"] = false
           -- ["conjure#log##treesitter"] = false,

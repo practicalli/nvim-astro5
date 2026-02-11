@@ -2,6 +2,7 @@
 
 ## Added
 - none-ls: use configuration file for markdown lint cli
+- clojure: add conjure debug option as comment example
 
 # 2025-07-03
 
