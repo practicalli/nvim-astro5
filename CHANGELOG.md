@@ -2,6 +2,7 @@
 
 ## Added
 - eca: editor code assistant plugin spec (commercial)
+- clojure: add conjure debug option as comment example
 
 # 2025-07-03
 
