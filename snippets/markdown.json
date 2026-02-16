@@ -110,8 +110,8 @@
       "---
 title: ${1:meaningful title}
 date:
-  created: 2025-0${2}-${3}
-  updated: 2025-0${2}-${3}
+  created: 2026-${2}-${3}
+  updated: 2026-${2}-${3}
 authors:
   - practicalli
 categories:
