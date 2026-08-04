@@ -144,6 +144,9 @@ return {
     "zerbiniandrea/conventional-commits.nvim",
     cmd = "ConventionalCommit",
     opts = {},
+    keys = {
+      { "<leader>gc", "<cmd>ConventionalCommit<cr>", desc = "Conventional Commit" },
+    },
   },
   -- ------------------------------------------
 
@@ -214,7 +217,6 @@ return {
 
           -- snacks file explorer
           ["<Leader>e"] = { "<cmd>lua Snacks.picker.explorer()<cr>", desc = "Snacks Explorer" },
-
 
           -- Save prompting for file name
           ["<Leader>W"] = { ":write ", desc = "Save as file" },
