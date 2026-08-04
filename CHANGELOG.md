@@ -1,20 +1,22 @@
 # Unreleased
 
+# 2026-08-05
+
 ## Added
 
-- practicalli: add conventional commits plugin for commit messages
-- dev: make tasks for practicalli projects
-- dev: update GitHub actions via `make dependencies-update`
+- build(make): 🔧 tasks for practicalli projects
+- feat(practicalli): ✨ conventional commits plugin
 - feat(practicalli): 🔧 key mapping for conventional commits plugin
+- ci(github): 👷 latest versions of actions via `make dependencies-update`
 
 | :file                                          | :name                   | :current | :latest |
 |------------------------------------------------|-------------------------|----------|---------|
-| .github/workflows/changelog-check.yaml         | actions/checkout        | v4       | v6.0.2  |
-| .github/workflows/megalinter.yaml              | actions/checkout        | v4       | v6.0.2  |
+| .github/workflows/changelog-check.yaml         | actions/checkout        | v4       | v7      |
+| .github/workflows/megalinter.yaml              | actions/checkout        | v4       | v7      |
 |                                                | actions/upload-artifact | v4       | v7.0.1  |
-|                                                | oxsecurity/megalinter   | v8       | v9.4.0  |
-| .github/workflows/scheduled-stale-check.yaml   | actions/stale           | v9       | v10.2.0 |
-| .github/workflows/scheduled-version-check.yaml | actions/checkout        | v4       | v6.0.2  |
+|                                                | oxsecurity/megalinter   | v8       | v9.6.0  |
+| .github/workflows/scheduled-stale-check.yaml   | actions/stale           | v9       | v11     |
+| .github/workflows/scheduled-version-check.yaml | actions/checkout        | v4       | v7      |
 
 
 # 2026-04-08
